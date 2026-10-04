@@ -1,6 +1,7 @@
 import regex
 
 #for debugging: text = "Iphone192184 👨🏿‍👩🏿‍👧🏿‍👦🏿"
+#You can use this � as input and select utf-8 just to confirm that the unicode hex codepoint value FF FD is not the same as the utf-8 encoded hex value EF BF BD
 
 text = input("Enter the text you want to encode e.g. Cyberpunk2077: \n")
 
